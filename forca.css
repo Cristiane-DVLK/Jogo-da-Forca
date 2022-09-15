@@ -27,11 +27,10 @@ body {
 
 }
 #imagem {
-	background-image: url("forca00.png");
+	background-image: url("../forca/forca00.png");
 	width: 234px;
 	height: 372px;
 	background-repeat: no-repeat;
-
 }
 
 #palavra-secreta {
@@ -40,7 +39,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 1em;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 .letras {
 	width: 16px;
@@ -64,7 +63,7 @@ body {
 	cursor: pointer;
 	box-shadow: 0px 2px 8px dimgray;
 	border-radius: 5px;
-	border: 1px solid #dimgray;
+	border: 1px solid dimgray;
 	color: #8b008b;
 	font-weight: 900;
 }
@@ -80,7 +79,7 @@ body {
 
 
 #categoria {
-	margin-top: 30px;
+	margin-top: 20px;
 	color: #8b008b;
 	font-size: 1.2em;
 }
@@ -151,3 +150,27 @@ body {
 	}
 }
 
+footer{
+        background-color: rgba(0, 0, 0, 0.507);
+        color: rgb(255, 255, 255);
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+        font: italic 10pt arial;
+        padding: 2px 2px 2px 2px;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        left: 0;
+        /*position: fixed;*/
+        
+    }
+
+    .linkedin{
+    width: 50px;
+    height: 50px;
+}
+
+.github {
+    width: 50px;
+    height: 50px;
+}
