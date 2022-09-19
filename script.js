@@ -312,7 +312,7 @@ function carregaImagemForca(){
             document.getElementById("imagem").style.background  = "url('./meu-projeto3.png')";
             break;
         case 2:
-            document.getElementById("imagem").style.background  = "url('.meu-projeto4.png')";
+            document.getElementById("imagem").style.background  = "url('./meu-projeto4.png')";
             break;
         case 1:
             document.getElementById("imagem").style.background  = "url('./meu-projeto5.png')";
